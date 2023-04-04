@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,20 +17,34 @@ img {
   /* 背景画像を繰り返さないようにする */
   background-repeat: no-repeat;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .header-title {
   font-size: 10rem;
-  font-family: 'Libre Baskerville', serif;
   position: absolute;
-  text-align: center;
-  padding-bottom: 8%;
+  top: 30%;
+  left: 27%;
   color: black;
 }
 
+.nav-container {
+  display: flex;
+
+}
+
+
+
 main {
   display: block;;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  
 }
