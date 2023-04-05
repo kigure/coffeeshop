@@ -22,6 +22,7 @@ img {
   /* 背景画像を繰り返さないようにする */
   background-repeat: no-repeat;
   position: relative;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .header-title {
@@ -29,7 +30,12 @@ img {
   position: absolute;
   top: 30%;
   left: 27%;
-  color: black;
+}
+
+.sub {
+  position: absolute;
+  top: 55%;
+  left: 45%;
 }
 
 nav {
