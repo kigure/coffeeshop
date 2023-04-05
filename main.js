@@ -1,4 +1,7 @@
 $(function() {
+  //オープニングアニメーション
+  $(".header-title").fadeIn(2000);
+  $(".sub-title").fadeIn(2000);
   //マウスオーバーしたときの色を指定
   $("li a").on("mouseover",function(){
     $(this).css({

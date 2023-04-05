@@ -21,21 +21,23 @@ img {
   background-position: center top;
   /* 背景画像を繰り返さないようにする */
   background-repeat: no-repeat;
-  position: relative;
   font-family: 'Libre Baskerville', serif;
 }
 
-.header-title {
-  font-size: 10rem;
-  position: absolute;
-  top: 30%;
-  left: 27%;
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sub {
-  position: absolute;
-  top: 55%;
-  left: 45%;
+.header-title {
+  display: none;
+  font-size: 10rem;
+  margin-top: 30vh;
+}
+
+.sub-title {
+  display: none;
 }
 
 nav {
